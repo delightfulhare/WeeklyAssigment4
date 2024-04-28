@@ -36,7 +36,7 @@
 }
 /* Main */
 section {
-    text-align: center;
+    text-align: left;
 }
 h1 {
 
@@ -48,8 +48,6 @@ li {
 
 }
 .btn {
-    align-items: center;
-    justify-content: center;
     display: block;
 	color: #0e1b17;
 	text-decoration: none;
