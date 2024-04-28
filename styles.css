@@ -39,13 +39,8 @@ section {
     text-align: left;
 }
 h1 {
-
-}
-p {
-
-}
-li {
-
+    color: #c8a1ce;
+    padding: 40px;
 }
 .btn {
     display: block;
