@@ -35,6 +35,9 @@
 		background-color: #c185a0;
 }
 /* Main */
+section {
+    justify-content: center;
+}
 h1 {
 
 }
