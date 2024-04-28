@@ -34,3 +34,94 @@
 		color: #0e1b17;
 		background-color: #c185a0;
 }
+/* Background Main */
+.wave {
+	background: #fff;
+	margin: 0 40px;
+	width: 1260px;
+	height: 25px;
+	position: relative;
+}
+.wave::before, .wave::after {
+	border-bottom: 5px solid #c8a1ce;
+}
+.wave::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 12px;
+	background-size: 20px 40px;
+	background-image: radial-gradient(circle at 10px -15px, transparent 20px, #c8a1ce 21px);
+}
+.wave::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 18px;
+	background-size: 40px 40px;
+	background-image: radial-gradient(circle at 10px 26px, #c8a1ce 20px, transparent 21px);
+}
+.wavebottom {
+	background: #c8a1ce;
+	margin: 0 40px;
+	width: 1260px;
+	height: 25px;
+	position: relative;
+}
+.wavebottom::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 12px;
+	background-size: 20px 40px;
+	background-image: radial-gradient(circle at 10px -15px, transparent 20px, white 21px);
+}
+.wavebottom::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 18px;
+	background-size: 40px 40px;
+	background-image: radial-gradient(circle at 10px 26px, white 20px, transparent 21px);
+}
+.bg {
+	width: 1260px;
+	height: 400px;
+	margin: 0 40px;
+	background-color: #c8a1ce;
+}
+.text {
+	font-family: Lucida Handwriting;
+	font-size: 20px;
+	color: #fff;
+	padding: 10px;
+	margin-right: 50px;
+	margin-top: 50px;
+	position: relative;
+}
+.btn_dark {
+	display: inline-block;
+	font-family: Helvetica;
+	text-transform: uppercase;
+	border: 2px solid white;
+	background-color: #c8a1ce;
+	color: #fff;
+	text-decoration: none;
+	padding: 15px 25px;
+	border-radius: 0;
+	font-size: 14px;
+	letter-spacing: 2px;
+	transition: all 0.4s;
+}
+.btn_dark:hover {
+	background-color: #fff;
+	color: #0e1b17;
+}
