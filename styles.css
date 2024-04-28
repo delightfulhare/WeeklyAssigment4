@@ -48,6 +48,7 @@ li {
 
 }
 .btn {
+    align-items: center;
     display: block;
 	color: #0e1b17;
 	text-decoration: none;
