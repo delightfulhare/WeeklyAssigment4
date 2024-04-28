@@ -34,3 +34,28 @@
 		color: #0e1b17;
 		background-color: #c185a0;
 }
+/* Main */
+h1 {
+
+}
+p {
+
+}
+li {
+
+}
+.btn {
+    display: block;
+	color: #0e1b17;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 20px 25px;
+	padding: 10px;
+	font-size: 13px;
+	letter-spacing: 2px;
+	transition: all 0.4s;
+}
+.btn:hover {
+    color: #0e1b17;
+	background-color: #c185a0;
+}
